@@ -1,0 +1,100 @@
+
+<XML>
+<Body units=characters color=#ff00ff mode=active version=2>
+<Highlight>
+<loc pg=2 pos=353 len=4>
+<loc pg=2 pos=357 len=6>
+<loc pg=2 pos=482 len=5>
+<loc pg=2 pos=488 len=6>
+<loc pg=4 pos=831 len=5>
+<loc pg=4 pos=836 len=6>
+<loc pg=9 pos=264 len=5>
+<loc pg=9 pos=269 len=6>
+<loc pg=20 pos=49 len=5>
+<loc pg=20 pos=54 len=6>
+<loc pg=41 pos=117 len=8>
+<loc pg=41 pos=263 len=8>
+<loc pg=42 pos=599 len=8>
+<loc pg=43 pos=404 len=8>
+<loc pg=43 pos=487 len=8>
+<loc pg=44 pos=615 len=8>
+<loc pg=44 pos=1608 len=8>
+<loc pg=44 pos=1645 len=8>
+<loc pg=45 pos=3 len=8>
+<loc pg=45 pos=308 len=8>
+<loc pg=45 pos=541 len=8>
+<loc pg=45 pos=683 len=8>
+<loc pg=45 pos=1270 len=8>
+<loc pg=45 pos=1345 len=8>
+<loc pg=45 pos=1523 len=8>
+<loc pg=46 pos=115 len=8>
+<loc pg=46 pos=300 len=8>
+<loc pg=46 pos=432 len=8>
+<loc pg=46 pos=476 len=8>
+<loc pg=46 pos=722 len=8>
+<loc pg=46 pos=967 len=8>
+<loc pg=46 pos=1047 len=8>
+<loc pg=46 pos=1110 len=8>
+<loc pg=46 pos=1191 len=8>
+<loc pg=46 pos=1247 len=4>
+<loc pg=46 pos=1251 len=6>
+<loc pg=46 pos=1397 len=8>
+<loc pg=47 pos=247 len=8>
+<loc pg=47 pos=441 len=8>
+<loc pg=49 pos=538 len=5>
+<loc pg=49 pos=543 len=6>
+<loc pg=50 pos=1585 len=5>
+<loc pg=50 pos=1590 len=6>
+<loc pg=65 pos=1453 len=5>
+<loc pg=65 pos=1458 len=6>
+<loc pg=69 pos=276 len=5>
+<loc pg=69 pos=281 len=6>
+<loc pg=70 pos=348 len=5>
+<loc pg=70 pos=353 len=6>
+<loc pg=70 pos=1204 len=5>
+<loc pg=70 pos=1209 len=6>
+<loc pg=70 pos=1610 len=5>
+<loc pg=70 pos=1615 len=6>
+<loc pg=71 pos=234 len=8>
+<loc pg=71 pos=343 len=8>
+<loc pg=71 pos=1423 len=8>
+<loc pg=71 pos=1582 len=8>
+<loc pg=72 pos=39 len=8>
+<loc pg=72 pos=212 len=8>
+<loc pg=72 pos=1110 len=8>
+<loc pg=72 pos=1193 len=8>
+<loc pg=72 pos=1317 len=8>
+<loc pg=73 pos=1250 len=5>
+<loc pg=73 pos=1255 len=6>
+<loc pg=74 pos=11 len=8>
+<loc pg=74 pos=52 len=8>
+<loc pg=74 pos=69 len=8>
+<loc pg=74 pos=187 len=8>
+<loc pg=74 pos=474 len=5>
+<loc pg=74 pos=479 len=6>
+<loc pg=74 pos=640 len=5>
+<loc pg=74 pos=645 len=6>
+<loc pg=76 pos=252 len=5>
+<loc pg=76 pos=257 len=6>
+<loc pg=76 pos=1381 len=5>
+<loc pg=76 pos=1386 len=6>
+<loc pg=76 pos=1511 len=5>
+<loc pg=76 pos=1516 len=6>
+<loc pg=77 pos=173 len=5>
+<loc pg=77 pos=178 len=6>
+<loc pg=77 pos=392 len=5>
+<loc pg=77 pos=397 len=6>
+<loc pg=77 pos=1095 len=5>
+<loc pg=77 pos=1100 len=6>
+<loc pg=77 pos=1306 len=5>
+<loc pg=77 pos=1311 len=6>
+<loc pg=80 pos=604 len=5>
+<loc pg=80 pos=609 len=6>
+</Highlight>
+<dtsearch_hitsByWord>
+[0]white rabbit, 22 (340 1260 2839 6445 17053 17681 22863 23800 24132 24333 24412 25485 25651 25688 26082 26319 26349 26405 26456 26609 26653 27619 )
+[1]very sleepy, 2 (312 16241 )
+[2]dormouse, 40 (14231 14262 14635 14979 14997 15389 15603 15610 15622 15687 15735 15764 15896 15912 15953 15999 16033 16063 16072 16130 16186 16200 16213 16228 16272 16388 16431 24506 24524 24769 24802 24828 24868 25063 25082 25104 25557 25564 25567 25590 )
+</dtsearch_hitsByWord>
+</Body>
+</XML>

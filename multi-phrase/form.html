@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- we try to load demo configuration (with JObjects Highlighter server URL) from two locations to make the examples 
+      portable and usable (without changes) in both on-premises JObjects Highlighter installations and standalone demo -->
+    <script src="../../examples-config.js"></script>
+    <script src="../examples-config-fallback.js"></script>       
+
+    <script src="multi.js"></script>
+    <style>
+        body { font-family: Arial, Helvetica, sans-serif; }
+        #goButton { font-size: 110%; font-weight: bold; }
+        #report { padding-top: 30px; }
+    </style>
+</head>
+<body>
+
+    <h2>Multi Phrase Highlight</h2>
+
+    <form id="hlForm">
+        <!--
+            highlightingRequestJson parameter is workaround for submitting multi-query JSON request
+            (see https://jobjects.com/docs/highlighter/highlight-for-query#multi-query-highlighting)
+            through a form field, in this case in addition to file uploaded
+        -->
+        <input type="hidden" id="highlightingRequestJson" name="highlightingRequestJson" value="">
+        <p>
+            <strong>Upload PDF file</strong>:
+            <input type="file" id="file" name="file" accept=".pdf">
+        </p>
+    </form>
+
+    <p>Terms and phrases to highlight (one per row):</p>
+    <textarea name="keywords" id="keywords" cols="30" rows="15">
+Fund
+Disaster
+Rabbit
+#FF0000
+Members of Congress
+Wonderland
+    </textarea>
+    <p style="color: #777;">
+        Note: Line starting with "#" sets color (RGB hex code) for all subsequent keywords, or until the next color is defined.
+        See how "#FF0000" (red) is used in the default keywords list above.
+    </p>
+
+    <p>
+        <input type="checkbox" id="burnPdf"> Burn PDF
+    </p>
+    <p>
+        <input type="checkbox" id="addNavigation"> Add navigation
+    </p>
+
+    <p style="text-align: center;">
+        <input type="button" id="goButton" value="Highlight PDF">
+    </p>
+
+    <div id="report"></div>
+
+</body>
+</html>

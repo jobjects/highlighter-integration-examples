@@ -1,0 +1,70 @@
+.navbar-default {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), inset 0 0 2px rgba(255, 255, 255, 0.75);
+    background-image: linear-gradient(to top, #ececec, #f4f4f4);
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.main-header {
+    background-color: #0099da;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.main-header .page-title {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+    font-size: 2em;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.nav-tabs + .tab-content {
+    padding: 15px;
+    border-left: solid 1px #e5e5e5;
+    border-right: solid 1px #e5e5e5;
+    border-bottom: solid 1px #e5e5e5;
+    overflow: hidden;
+}
+
+#docHolder {
+    height: 650px;
+}
+
+#docHolder iframe {
+    width: 95%;
+    height: 100%;
+}
+
+@media (min-width: 767px) {
+	.navbar-default .navbar-nav > li > a {
+	    padding-top: 16px;
+	    padding-bottom: 15px;
+	    margin-top: -1px;
+	    color: #000;
+	    font-family: "Lato";
+	    font-size: 16px;
+	    font-weight: 400;
+	}
+}
+
+footer, .push {
+    height: 48px;
+}
+
+a {
+    color: #0099da;
+}
+
+.nav-tabs.nav-tabs-round li a {
+    border-radius: 5px 5px 0 0;
+}
+
+body .navbar-brand>img {
+    display: inline;
+    margin-right: .5rem;
+}

@@ -1,0 +1,3 @@
+
+/*Disable red hit border*/
+body div.currentHighlight { border: none; }
